@@ -1,0 +1,14 @@
+class Solution{
+    
+    // Function to check if given number n is a power of two.
+    public static boolean isPowerofTwo(long n){
+        
+        // Your code here
+        for(int i=0;i<64;i++){
+            if(n==Math.pow(2,i)){
+             return true;   
+            }
+        }return false;
+    }
+    
+}
