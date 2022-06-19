@@ -1,0 +1,19 @@
+class Reverse
+{
+    // Complete the function
+    // str: input string
+    public static String reverseWord(String str)
+    {
+        // Reverse the string str
+        char arr[]=str.toCharArray();
+        int l=0;
+        int r=arr.length-1;
+        while(l<r){
+            char temp=arr[l];
+            arr[l++]=arr[r];
+            arr[r--]=temp;
+        }
+        String sting=new String(arr);
+        return sting;
+    }
+}
