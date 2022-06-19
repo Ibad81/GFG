@@ -1,0 +1,10 @@
+class Solution {
+    static int toggleBits(int N , int L , int R) {
+        // code here
+        while(L<=R){
+            N=N^(1<<L-1);
+            L++;
+        }
+        return N;
+    }
+}
