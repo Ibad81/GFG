@@ -18,7 +18,7 @@ class GfG
 	Node first=head;
 	Node Last=head;
 	while(Last!=null && Last.next!=null){
-	    first=first.next;
+	    
 	    Last=Last.next.next;
 	    if (first==Last){
 	        return true;
