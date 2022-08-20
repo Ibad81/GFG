@@ -1,3 +1,4 @@
+import java.util.Arrays;
 class Solution{
     public static boolean check(long A[],long B[],int N)
     {
