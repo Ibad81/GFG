@@ -1,0 +1,19 @@
+package Code_forces;
+import java.util.Scanner;
+public class Insomnia_cure {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        long k=sc.nextLong();
+        long l=sc.nextLong();
+        long m=sc.nextLong();
+        long n=sc.nextLong();
+        long d=sc.nextLong();
+        int count=0;
+        for (int i = 1; i <=d; i++) {
+            if(i%k==0 || i%l==0 || i%m==0 || i%n==0 ){
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
