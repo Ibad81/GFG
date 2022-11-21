@@ -15,7 +15,10 @@ public class a{
                 man[mn]=sc.nextInt();
             }
             Arrays.sort(man);
+
+            
             System.out.println(man[1]);
+            
         }
     }
 }
