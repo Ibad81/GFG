@@ -14,5 +14,8 @@ class Tree
         int left=countLeaves(node.left);
         int right=countLeaves(node.right);
         return left+right;
+        
+        
+//         //
     }
 }
